@@ -9,6 +9,8 @@ _test_settings = {
 
     # Without this we'd need to invalidate the cache before every test.
     'USE_OBJECT_CACHES': False,
+
+    'SHOULD_ENABLE_DEVELOPMENT_ONLY_FEATURES': True
 }
 
 
